@@ -1,2 +1,22 @@
-# DRAV_id
-just got in, to LEARN
+const navToggle = document.querySelector('.nav-toggle');
+const navMenu = document.querySelector('.nav-menu');
+const yearEl = document.getElementById('year');
+
+if (yearEl) {
+  yearEl.textContent = new Date().getFullYear();
+}
+
+if (navToggle && navMenu) {
+  navToggle.addEventListener('click', () => {
+    const isExpanded = navToggle.getAttribute('aria-expanded') === 'true';
+    navToggle.setAttribute('aria-expanded', String(!isExpanded));
+    navMenu.classList.toggle('open');
+  });
+
+  navMenu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      navMenu.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+}

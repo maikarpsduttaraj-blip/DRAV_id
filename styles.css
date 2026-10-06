@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maikarps Duttaraj | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Maikarps Duttaraj, showcasing skills, projects, and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="#home" class="brand">MD</a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Maikarps Duttaraj</h1>
+            <h2>Developer • Designer • Learner</h2>
+            <p class="lead">
+              I build thoughtful digital experiences with a passion for clean code,
+              user-focused design, and continuous learning.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Let's Talk</a>
+            </div>
+            <div class="socials">
+              <a href="https://github.com/maikarpsduttaraj-blip" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="mailto:you@example.com">Email</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="profile-badge">Available for work</div>
+            <div class="profile-visual">
+              <div class="avatar">MD</div>
+            </div>
+            <ul>
+              <li><span>Focus</span><strong>Web Development</strong></li>
+              <li><span>Experience</span><strong>1+ Years</strong></li>
+              <li><span>Location</span><strong>India</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About me</p>
+            <h3>Building useful things with curiosity</h3>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <p>
+                I am a learner-driven developer focused on creating clean, efficient,
+                and human-centered digital experiences. I enjoy turning ideas into real,
+                usable products with attention to both design and functionality.
+              </p>
+            </div>
+            <div class="about-stats">
+              <div>
+                <strong>5+</strong>
+                <span>Projects</span>
+              </div>
+              <div>
+                <strong>3+</strong>
+                <span>Technologies</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Curiosity</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h3>Tools and technologies I work with</h3>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <span>HTML</span>
+            </div>
+            <div class="skill-card">
+              <span>CSS</span>
+            </div>
+            <div class="skill-card">
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-card">
+              <span>React</span>
+            </div>
+            <div class="skill-card">
+              <span>Node.js</span>
+            </div>
+            <div class="skill-card">
+              <span>Git</span>
+            </div>
+            <div class="skill-card">
+              <span>UI/UX</span>
+            </div>
+            <div class="skill-card">
+              <span>Responsive Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h3>Selected work</h3>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image project-one"></div>
+              <div class="project-body">
+                <h4>Portfolio Website</h4>
+                <p>A modern one-page personal site built with HTML, CSS, and JavaScript.</p>
+                <div class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-two"></div>
+              <div class="project-body">
+                <h4>Business Landing Page</h4>
+                <p>A conversion-focused marketing page for a service-based business.</p>
+                <div class="tags">
+                  <span>UI</span>
+                  <span>SEO</span>
+                  <span>Responsive</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-three"></div>
+              <div class="project-body">
+                <h4>Task Tracker App</h4>
+                <p>A lightweight productivity app for organizing tasks and daily goals.</p>
+                <div class="tags">
+                  <span>React</span>
+                  <span>State</span>
+                  <span>UX</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h3>My journey so far</h3>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="time">2024 - Present</span>
+                <h4>Self-taught Frontend Developer</h4>
+                <p>Building responsive websites and learning modern web development practices.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="time">2023 - 2024</span>
+                <h4>Learning UI/UX and Web Design</h4>
+                <p>Exploring design systems, accessibility, and user-friendly interfaces.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="time">2022 - 2023</span>
+                <h4>Started Coding</h4>
+                <p>Beginning with HTML, CSS, and JavaScript fundamentals to build my first projects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h3>Let's create something meaningful</h3>
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:you@example.com">you@example.com</a>
+            <a href="https://github.com/maikarpsduttaraj-blip" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Maikarps Duttaraj</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
