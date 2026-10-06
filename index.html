@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Rivera | Full Stack Developer & Designer</title>
+    <meta name="description" content="Portfolio of Alex Rivera - Full Stack Developer, UI/UX Designer, and Creative Problem Solver.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">AR</div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Alex Rivera</span></h1>
+                    <p class="subtitle">Full Stack Developer • UI/UX Designer • Creative Problem Solver</p>
+                    <p class="description">
+                        I create beautiful, functional web experiences that solve real problems. 
+                        Specializing in modern React applications and responsive design.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                        <a href="mailto:alex@example.com">Email</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <div class="avatar-circle">AR</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I'm a passionate developer and designer with 5+ years of experience building web applications.
+                        I love combining clean code with beautiful design to create products that users love.
+                    </p>
+                    <p>
+                        When I'm not coding, you can find me exploring new design trends, contributing to open source,
+                        or sharing knowledge with the developer community.
+                    </p>
+                    
+                    <h3 style="margin-top: 1.5rem;">Quick Facts</h3>
+                    <ul class="facts-list">
+                        <li>📍 Based in San Francisco, CA</li>
+                        <li>💼 5+ years in web development</li>
+                        <li>🎓 Self-taught & continuous learner</li>
+                        <li>🌍 Available for remote work</li>
+                    </ul>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h4>50+</h4>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>30+</h4>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4>100+</h4>
+                        <p>Code Reviews</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4>Frontend</h4>
+                    <div class="skill-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">TypeScript</span>
+                        <span class="tag">Tailwind CSS</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">HTML/CSS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Backend</h4>
+                    <div class="skill-tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">RESTful APIs</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Design & Tools</h4>
+                    <div class="skill-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Responsive Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Building modern, responsive websites and web applications using the latest technologies and best practices.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating beautiful and intuitive user interfaces that provide excellent user experiences and drive conversions.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Ensuring your website looks perfect on all devices - desktop, tablet, and mobile phones.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Performance Optimization</h3>
+                    <p>Optimizing websites for speed, SEO, and user experience to maximize conversions and engagement.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Maintenance & Support</h3>
+                    <p>Providing ongoing support, updates, and maintenance to keep your website running smoothly.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Consulting</h3>
+                    <p>Offering expert advice on web technologies, architecture, and best practices for your projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="portfolio-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="portfolio-content">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management tool with real-time updates and team collaboration features.</p>
+                        <div class="portfolio-tags">
+                            <span>Next.js</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                            <span>WebSockets</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="portfolio-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>An interactive analytics dashboard with real-time data visualization and interactive charts.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Chart.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <div class="portfolio-content">
+                        <h3>Social Media App</h3>
+                        <p>A social platform with user authentication, feed, messaging, and real-time notifications.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Socket.io</span>
+                            <span>Cloud Storage</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
+                    <div class="portfolio-content">
+                        <h3>Weather App</h3>
+                        <p>A weather application with real-time updates, forecasts, and location-based services.</p>
+                        <div class="portfolio-tags">
+                            <span>React</span>
+                            <span>API Integration</span>
+                            <span>Geolocation</span>
+                            <span>Responsive</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                    <div class="portfolio-content">
+                        <h3>Blog Platform</h3>
+                        <p>A modern blog platform with markdown support, comments, and social sharing functionality.</p>
+                        <div class="portfolio-tags">
+                            <span>Next.js</span>
+                            <span>Markdown</span>
+                            <span>PostgreSQL</span>
+                            <span>SEO</span>
+                        </div>
+                        <a href="#" class="portfolio-link">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h3>Let's Work Together</h3>
+                    <p>
+                        I'm always interested in hearing about new projects and opportunities. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <strong>Email:</strong>
+                            <a href="mailto:alex@example.com">alex@example.com</a>
+                        </div>
+                        <div class="info-item">
+                            <strong>Phone:</strong>
+                            <a href="tel:+1234567890">+1 (234) 567-8900</a>
+                        </div>
+                        <div class="info-item">
+                            <strong>Location:</strong>
+                            <span>San Francisco, CA</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Alex Rivera. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Back to Top</a>
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
